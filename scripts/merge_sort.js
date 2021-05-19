@@ -6,8 +6,9 @@ function Merge()
     c_delay=0;
 
     
-    merge_button.style="background-color:#4B5563; color:white";
+    
     disable_buttons();
+    merge_button.style="background-color:#4B5563; color:white";
     merge_partition(0,array_size-1);
 
     

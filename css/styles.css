@@ -474,8 +474,18 @@ visibility: hidden;
   .nav-brand{
     font-size:1.7rem;
     padding:0;
+    margin-top: 0.85rem;
   }
 
+  .navigation .list-non-bullet .nav-pills{
+    margin-top:0;
+    padding-top: 0;
+  }
+
+  .navigation .nav-pills{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .element1, .element2{
     
     font-size: 0.95rem;
