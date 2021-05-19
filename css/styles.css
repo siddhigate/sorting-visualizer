@@ -452,7 +452,7 @@ visibility: hidden;
 
   #a_generate{
     margin:auto;
-    margin-top:0.95rem;
+    margin-top:0rem;
     font-size: 0.9rem;
     padding:0.7rem;
     padding-left:1rem;
@@ -464,7 +464,8 @@ visibility: hidden;
   }
   #array_container{
     /* margin:auto; */
-    padding:0
+    padding:0;
+    margin-top:0;
   }
 
   .list-item-inline{
