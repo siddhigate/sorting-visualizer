@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visulaizer</title>
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    
+    <nav class="navigation ">
+        
+        <div class="nav-brand"> Sorting Visualizer</div>
+        <ul class="list-non-bullet nav-pills">
+            
+                <div class="btn_columns">
+                    <div class="btn_row1">
+                        <li class="list-item-inline" id="bubble">Bubble</li>
+                        <li class="list-item-inline" id="insertion" >Insertion</li>
+                        <li class="list-item-inline" id="selection">Selection</li>
+                    </div>
+    
+                    <div class="btn_row2">
+                        <li class="list-item-inline" id="merge" onclick="Merge()">Merge</li>
+                        <li class="list-item-inline" id="quick">Quick</li>
+                        <li class="list-item-inline" id="heap">Heap</li>
+                    </div>
+                </div>
+                
+            
+        </ul>
+    </nav>    
+<div class="color-cont">
+    <div class="container-center">
+        
+        <div class="container">
+
+            <div class="columns">
+                <div class="column1">
+
+                    <div class="element1">
+                        <p >Size of the array</p>
+                        <input id="a_size" class="range" type="range" min=20 max=150 step=1 value=80>
+            
+                    </div>
+                    <div class="element2">
+                        <p id="speed">Speed of the algorithm</p>
+                        <input id="a_speed" class="range" type="range" min=1 max=5 step=1 value=4>
+            
+                    </div>
+                </div>
+                <div class="column2">
+                    
+            <button id="a_generate">Generate New Array</button>
+        
+                </div>
+            </div>
+            
+        </div>
+        </div>
+        
+    
+        <section>
+    
+            <!-- <div id="Info_Cont1">
+                
+            </div> -->
+    
+        <div id="array_container">
+                
+        </div>
+
+    
+    <!-- 
+            <div id="Info_Cont2">
+                
+            </div> -->
+    
+        </section>
+</div>
+    
+<script src="./scripts/main.js"></script>
+<script src="./scripts/visualizations.js"></script>
+<script src="./scripts/bubble_sort.js"></script>
+<script src="./scripts/insertion_sort.js"></script>
+<script src="./scripts/selection_sort.js"></script>
+<script src="./scripts/merge_sort.js"></script>
+<script src="./scripts/quick_sort.js"></script>
+<script src="./scripts/heap_sort.js"></script>
+
+
+</body>
+
+</html>
