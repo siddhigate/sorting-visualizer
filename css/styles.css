@@ -343,6 +343,47 @@ visibility: hidden;
 }
 }
 
+.link{
+  text-decoration: none;
+  padding: 0.5rem 0.5rem ;
+  margin-top:1rem;
+  margin-left:0.5rem;
+  box-sizing:border-box;
+}
+
+.list-non-bullet{
+  list-style: none;
+}
+/* 
+.list-item-inline{
+  display: inline ;
+  padding:0rem 0rem;
+} */
+
+.footer{
+  background-color:var(--blue);
+  padding:2rem 0rem;
+  text-align: center;
+  color:white;
+  border-top-right-radius:1rem;
+  margin-top: 3rem;
+}
+
+.footer .footer-header{
+  font-weight: bold;
+  font-size: large;
+  padding-inline-start:0px;
+}
+.footer .link{
+  color:white;
+}
+
+.footer ul{
+  padding-left:0px;
+  text-align: center;
+}
+
+
 @media (max-width:918px){
   body{
     /* background-color: red; */
