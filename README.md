@@ -6,7 +6,7 @@ A visualizer built using HTML, CSS and JS which visualizes various sorting algor
 ![sorting visualizer output](./sortingvisualizer.gif)
 
 
-### Sorting Algorithms visualized
+## Sorting Algorithms visualized
 1. Bubble sort
 2. Insertion sort
 3. Selection sort
