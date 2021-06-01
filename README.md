@@ -2,8 +2,9 @@
 
 A visualizer built using HTML, CSS and JS which visualizes various sorting algorithms
 
-Check out the live demoe [here](https://sortingalgorithmsvisualizer.netlify.app/)
+#### Check out the live demo [here](https://sortingalgorithmsvisualizer.netlify.app/)
 
+## 
 ### Output 
 ![sorting visualizer output](./sortingvisualizer.gif)
 
@@ -15,3 +16,6 @@ Check out the live demoe [here](https://sortingalgorithmsvisualizer.netlify.app/
 4. Merge sort
 5. Quick sort
 6. Heap
+
+##
+## [Live Demo](https://sortingalgorithmsvisualizer.netlify.app/)
