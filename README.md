@@ -5,7 +5,7 @@ A visualizer built using **HTML, CSS and vanilla JS** which visualizes various s
 #### Check out the live demo [here](https://sortingalgorithmsvisualizer.netlify.app/)
 
 ## 
-### Output 
+### 
 ![sorting visualizer output](./sortingvisualizer.gif)
 
 
